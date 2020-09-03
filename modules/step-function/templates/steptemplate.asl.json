@@ -6,7 +6,7 @@
         "Type": "Pass",
         "End": true
       },
-      "CallLamda"{
+      "CallLamda":{
         "Type": "Task",
         "Resource": "${LAMBDA_ARN}",
         "Next": ""
