@@ -1,0 +1,15 @@
+{
+    "Comment": "An example of the Amazon States Language using an AWS Lambda Functions",
+    "StartAt": "DefaultState",
+    "States": {
+      "DefaultState": {
+        "Type": "Pass",
+        "End": true
+      },
+      "CallLamda"{
+        "Type": "Task",
+        "Resource": "${LAMBDA_ARN}",
+        "Next": ""
+      }
+    }
+  }
